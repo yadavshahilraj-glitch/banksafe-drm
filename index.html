@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="BankSafe - Disaster Risk Management in the Banking and Finance Sector">
+<title>BankSafe | Disaster Risk Management</title>
+<style>
+:root{--navy:#0b1f3a;--blue:#1565c0;--cyan:#00a8cc;--bg:#f4f7fb;--card:#fff;--text:#182333;--muted:#637083;--line:#dce4ee}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;font-family:Arial,Helvetica,sans-serif;color:var(--text);background:var(--bg);line-height:1.6}
+header{position:sticky;top:0;z-index:10;background:rgba(11,31,58,.96);color:#fff;box-shadow:0 2px 12px #0002}
+.nav{max-width:1150px;margin:auto;display:flex;align-items:center;justify-content:space-between;padding:14px 20px}
+.logo{font-weight:800;font-size:22px;letter-spacing:.5px}.logo span{color:#54d7f0}
+nav a{color:#fff;text-decoration:none;margin-left:18px;font-size:14px}nav a:hover{color:#54d7f0}
+.hero{background:linear-gradient(135deg,#0b1f3a,#1565c0);color:#fff;padding:78px 20px}
+.hero-inner{max-width:1150px;margin:auto;display:grid;grid-template-columns:1.4fr .8fr;gap:35px;align-items:center}
+.badge{display:inline-block;border:1px solid #ffffff55;border-radius:50px;padding:6px 12px;font-size:13px;margin-bottom:15px}
+h1{font-size:48px;line-height:1.08;margin:0 0 18px}.hero p{font-size:18px;color:#e7f2ff;max-width:700px}
+.btn{display:inline-block;background:#fff;color:var(--navy);padding:12px 18px;border-radius:10px;text-decoration:none;font-weight:700;margin-top:10px}
+.shield{background:#ffffff14;border:1px solid #ffffff2b;border-radius:24px;padding:30px;text-align:center;font-size:75px}
+.container{max-width:1150px;margin:auto;padding:55px 20px}.section-title{font-size:30px;margin:0 0 8px}.section-sub{color:var(--muted);margin-top:0}
+.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;margin-top:25px}.grid4{grid-template-columns:repeat(4,1fr)}
+.card{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:22px;box-shadow:0 5px 20px #1a355010}.card h3{margin-top:8px;margin-bottom:8px}.icon{font-size:30px}.card p{color:var(--muted);margin-bottom:0}
+.risk{border-left:5px solid var(--blue)}.risk small{color:var(--blue);font-weight:700}
+.steps{display:grid;grid-template-columns:repeat(4,1fr);gap:12px;margin-top:25px}.step{background:#fff;border:1px solid var(--line);border-radius:14px;padding:20px;text-align:center;position:relative}.step b{display:block;font-size:17px;margin:7px 0}.num{width:38px;height:38px;border-radius:50%;background:var(--blue);color:#fff;display:inline-flex;align-items:center;justify-content:center;font-weight:700}
+.checklist{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-top:18px}.check{background:#fff;border:1px solid var(--line);padding:13px;border-radius:10px}.check::first-letter{color:#168a48}
+.scenario{background:#eaf4ff;border:1px solid #c9e3ff;border-radius:18px;padding:25px;margin-top:25px}.flow{display:flex;flex-wrap:wrap;gap:8px;align-items:center;margin-top:15px}.flow span{background:#fff;border:1px solid #cbdceb;border-radius:9px;padding:10px 13px;font-weight:700}.arrow{font-weight:900;color:var(--blue)}
+.stats{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;margin-top:22px}.stat{background:var(--navy);color:#fff;border-radius:14px;padding:22px}.stat strong{font-size:25px;display:block}.stat span{color:#cfe0f7;font-size:13px}
+footer{background:#09182d;color:#c9d5e5;padding:35px 20px}.footer-inner{max-width:1150px;margin:auto}.sources a{color:#74ddf3}
+@media(max-width:800px){nav{display:none}.hero-inner{grid-template-columns:1fr}h1{font-size:38px}.grid,.grid4,.steps,.stats,.checklist{grid-template-columns:1fr}.container{padding:42px 18px}}
+</style>
+</head>
+<body>
+<header>
+<div class="nav">
+<div class="logo">Bank<span>Safe</span> 🛡️</div>
+<nav>
+<a href="#about">About</a><a href="#risks">Risks</a><a href="#cycle">DRM Cycle</a><a href="#bcp">BCP</a><a href="#tech">Technology</a><a href="#checklist">Checklist</a>
+</nav>
+</div>
+</header>
+
+<section class="hero">
+<div class="hero-inner">
+<div>
+<div class="badge">CHE110 • Environmental Studies • BBA Project</div>
+<h1>Disaster Risk Management in Banking & Finance</h1>
+<p>BankSafe is an educational dashboard showing how banks can prepare for disasters, protect people and data, maintain critical services, and recover operations quickly.</p>
+<a class="btn" href="#risks">Explore Risk Management ↓</a>
+</div>
+<div class="shield">🛡️<br><div style="font-size:20px;font-weight:700">Protect • Prepare • Respond • Recover</div></div>
+</div>
+</section>
+
+<section class="container" id="about">
+<h2 class="section-title">Why Disaster Risk Management Matters</h2>
+<p class="section-sub">Banks depend on physical infrastructure, technology, electricity, communications, people and financial data.</p>
+<div class="grid">
+<div class="card"><div class="icon">💰</div><h3>Protect Financial Assets</h3><p>Reduce operational and financial losses during disruptive events.</p></div>
+<div class="card"><div class="icon">🔐</div><h3>Protect Data</h3><p>Use secure backups, access controls and recovery systems to protect critical information.</p></div>
+<div class="card"><div class="icon">🏦</div><h3>Keep Services Running</h3><p>Maintain essential banking channels even when a physical branch is unavailable.</p></div>
+</div>
+<div class="stats">
+<div class="stat"><strong>People</strong><span>Safety, training, emergency roles and communication</span></div>
+<div class="stat"><strong>Processes</strong><span>Business continuity, crisis response and recovery procedures</span></div>
+<div class="stat"><strong>Technology</strong><span>Backup, cybersecurity, alternate systems and recovery sites</span></div>
+</div>
+</section>
+
+<section class="container" id="risks">
+<h2 class="section-title">Major Disaster Risks</h2>
+<p class="section-sub">A bank should assess both natural and technology-related disruptions.</p>
+<div class="grid">
+<div class="card risk"><small>NATURAL</small><h3>🌊 Flood</h3><p>Can damage branches, ATMs, electrical equipment and local connectivity.</p></div>
+<div class="card risk"><small>NATURAL</small><h3>🌪️ Cyclone</h3><p>Can disrupt power, communications, transport and branch operations.</p></div>
+<div class="card risk"><small>NATURAL</small><h3>🌎 Earthquake</h3><p>Can affect buildings, infrastructure, staff access and physical records.</p></div>
+<div class="card risk"><small>ACCIDENT</small><h3>🔥 Fire</h3><p>Can damage premises, hardware, documents and critical equipment.</p></div>
+<div class="card risk"><small>TECHNOLOGY</small><h3>💻 Cyberattack</h3><p>Can disrupt systems, compromise information or affect customer services.</p></div>
+<div class="card risk"><small>TECHNOLOGY</small><h3>⚡ Power / Network Failure</h3><p>Can interrupt ATMs, digital banking, servers and communication.</p></div>
+</div>
+</section>
+
+<section class="container" id="cycle">
+<h2 class="section-title">Disaster Management Cycle</h2>
+<p class="section-sub">A strong plan covers the complete cycle, not only post-disaster recovery.</p>
+<div class="steps">
+<div class="step"><div class="num">1</div><b>Mitigation</b><span>Reduce the possible impact of hazards.</span></div>
+<div class="step"><div class="num">2</div><b>Preparedness</b><span>Train people, prepare backups and test plans.</span></div>
+<div class="step"><div class="num">3</div><b>Response</b><span>Protect people, assets, systems and critical services.</span></div>
+<div class="step"><div class="num">4</div><b>Recovery</b><span>Restore data, systems, infrastructure and operations.</span></div>
+</div>
+</section>
+
+<section class="container" id="bcp">
+<h2 class="section-title">Business Continuity & Disaster Recovery</h2>
+<p class="section-sub">BCP helps critical business functions continue; DR focuses strongly on restoring technology and services.</p>
+<div class="scenario">
+<h3>Example: Flood closes a bank branch</h3>
+<div class="flow">
+<span>Branch unavailable</span><i class="arrow">→</i><span>Activate BCP</span><i class="arrow">→</i><span>Alternate location / channels</span><i class="arrow">→</i><span>Backup systems</span><i class="arrow">→</i><span>Restore normal service</span>
+</div>
+</div>
+<div class="grid">
+<div class="card"><h3>📦 Data Backup</h3><p>Back up critical information and periodically verify that backups can be restored.</p></div>
+<div class="card"><h3>🖥️ Recovery Site</h3><p>Maintain an alternate environment so critical systems can be recovered after disruption.</p></div>
+<div class="card"><h3>📞 Crisis Communication</h3><p>Keep customers, employees and relevant stakeholders informed during an incident.</p></div>
+</div>
+</section>
+
+<section class="container" id="tech">
+<h2 class="section-title">Role of Technology</h2>
+<div class="grid">
+<div class="card"><h3>☁️ Cloud & Alternate Storage</h3><p>Can support resilient access and recovery when primary infrastructure is unavailable.</p></div>
+<div class="card"><h3>🤖 Artificial Intelligence</h3><p>Can support monitoring, anomaly detection and risk analysis when appropriately governed.</p></div>
+<div class="card"><h3>🛡️ Cybersecurity</h3><p>Security controls help prevent, detect, respond to and recover from cyber incidents.</p></div>
+<div class="card"><h3>📱 Digital Banking</h3><p>Mobile and internet banking can help customers access essential services when branches are disrupted.</p></div>
+<div class="card"><h3>🔋 Power Backup</h3><p>Backup electricity can support ATMs, networking and critical infrastructure during outages.</p></div>
+<div class="card"><h3>🌐 Network Redundancy</h3><p>Multiple communication paths can reduce dependence on a single connection.</p></div>
+</div>
+</section>
+
+<section class="container" id="checklist">
+<h2 class="section-title">Emergency Checklist</h2>
+<p class="section-sub">A simple checklist for banking disaster preparedness.</p>
+<div class="checklist">
+<div class="check">☑ Critical data backup completed</div><div class="check">☑ Backup power available</div>
+<div class="check">☑ Cybersecurity controls reviewed</div><div class="check">☑ Emergency communication tested</div>
+<div class="check">☑ Alternative workplace identified</div><div class="check">☑ Emergency response team assigned</div>
+<div class="check">☑ Critical vendors included in continuity planning</div><div class="check">☑ BCP / DR drills scheduled and reviewed</div>
+</div>
+</section>
+
+<section class="container">
+<h2 class="section-title">Environmental Connection</h2>
+<p class="section-sub">Environmental hazards can become operational and financial risks for banks.</p>
+<div class="card">
+<p>Floods, cyclones, earthquakes, landslides and extreme weather can damage banking infrastructure and interrupt access to financial services. Environmental risk should therefore be considered in business continuity, site selection, infrastructure resilience and emergency planning.</p>
+</div>
+</section>
+
+<section class="container">
+<h2 class="section-title">Key Takeaway</h2>
+<div class="card">
+<h3>Protect • Prepare • Respond • Recover</h3>
+<p>Effective disaster risk management helps banks protect customers, employees, data, infrastructure and essential financial services while supporting operational resilience and public confidence.</p>
+</div>
+</section>
+
+<footer>
+<div class="footer-inner">
+<h3>BankSafe — CHE110 Project</h3>
+<p><b>Student:</b> Shahil Raj Yadav</p>
+<p><b>Topic:</b> Disaster Risk Management in the Banking and Finance Sector</p>
+<div class="sources">
+<p><b>Reference:</b> Reserve Bank of India, IT Governance, Risk, Controls and Assurance Practices Directions, 2023 — includes Business Continuity Plan and Disaster Recovery requirements.</p>
+<p><a href="https://www.rbi.org.in/" target="_blank" rel="noopener">RBI official website ↗</a></p>
+</div>
+<p style="font-size:12px;color:#9fb0c7">Educational project for CHE110. This website is not an official banking or regulatory service.</p>
+</div>
+</footer>
+</body>
+</html>
